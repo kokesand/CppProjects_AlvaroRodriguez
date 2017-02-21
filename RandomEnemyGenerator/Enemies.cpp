@@ -2,7 +2,7 @@
 #include <string>
 
 
-enum EnemyType { zombie, vampire, ghost, witch };
+enum class EnemyType { zombie, vampire, ghost, witch };
 
 struct Enemy
 {
